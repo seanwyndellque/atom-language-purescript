@@ -328,6 +328,12 @@ purescriptGrammar =
     ,
       name: 'punctuation.separator.comma'
       match: /,/
+    ,
+      name: 'support.function.delimeter'
+      match: /[\[\]\{\},]/
+    ,
+      name: 'punctuation.definition.parenthesis'
+      match: /\(|\)/
   ]
   repository:
     block_comment:

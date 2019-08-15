@@ -389,6 +389,14 @@
     'name': 'punctuation.separator.comma.purescript'
     'match': ','
   }
+  {
+    'name': 'support.function.delimeter.purescript'
+    'match': '[\\[\\]\\{\\},]'
+  }
+  {
+    'name': 'punctuation.definition.parenthesis.purescript'
+    'match': '\\(|\\)'
+  }
 ]
 'repository':
   'block_comment':
